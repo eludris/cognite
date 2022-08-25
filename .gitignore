@@ -1,0 +1,6 @@
+# Rust Deps
+target
+
+# KeyDB data
+dump.rdb
+appendonly.aof
