@@ -4,3 +4,6 @@ target
 # KeyDB data
 dump.rdb
 appendonly.aof
+
+# Environment variables
+.env
