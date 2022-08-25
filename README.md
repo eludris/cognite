@@ -41,7 +41,7 @@ git clone https://github.com/Eludris/cognite
 - Start cognite-gateway by running
 
 ```sh
-cd cognite-gateway && cargo run --release
+cargo run --release --manifest-path=gateway/Cargo.toml
 ```
 
 If you want to opt-in into caching must:
@@ -50,7 +50,7 @@ If you want to opt-in into caching must:
 - Start cognite-cache by running
 
 ```sh
-cd cognite-cache && cargo run --release
+cargo run --release --manifest-path=cache/Cargo.toml
 ```
 
 Finally, start your cogs and you're all set!
